@@ -1,0 +1,59 @@
+{
+  "name": "pca_cloud-backend",
+  "version": "1.0.0",
+  "description": "pca cloud a site for my school to host all memorable photos and video",
+  "main": "pca_cloud.js",
+  "scripts": {
+    "dev": " nodemon pca_cloud.js",
+    "start": "node pca_cloud.js"
+  },
+  "keywords": [
+    "cloud",
+    "storage"
+  ],
+  "author": "airewamhe victor (airvic)",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/animations": "^15.0.4",
+    "@angular/cdk": "^15.0.3",
+    "@angular/core": "^15.2.0",
+    "@angular/fire": "^7.5.0",
+    "@angular/forms": "^15.2.0",
+    "@angular/material": "^15.0.3",
+    "@angular/platform-browser": "^15.1.2",
+    "@angular/router": "^15.1.2",
+    "@aws-sdk/client-s3": "^3.278.0",
+    "@aws-sdk/client-sns": "^3.276.0",
+    "@aws-sdk/s3-request-presigner": "^3.278.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "file-saver": "^2.0.5",
+    "file-system": "^1.2.2",
+    "filesaver": "^0.0.13",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.4.6",
+    "multer": "^1.4.5-lts.1",
+    "ngx-filesaver": "^14.0.0",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.0.4",
+    "@angular/cli": "^15.0.4",
+    "@angular/compiler-cli": "^15.0.4",
+    "@types/bootstrap": "^5.2.6",
+    "@types/jasmine": "~4.0.0",
+    "@types/mocha": "^10.0.1",
+    "jasmine-core": "~4.1.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "tslib": "^2.4.1",
+    "typescript": "~4.8.4"
+  }
+}
